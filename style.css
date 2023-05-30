@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
   /* colors */
   --dark-1: #111;
@@ -11,4 +12,19 @@
   --font-base: 16px;
   --heading-1: 72px;
   --heading-2: 36px;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "poppins";
 }
