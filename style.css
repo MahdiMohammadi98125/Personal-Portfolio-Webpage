@@ -1,0 +1,14 @@
+:root {
+  /* colors */
+  --dark-1: #111;
+  --dark--2: #222;
+  --dark-3: #333;
+  --dark-4: #444;
+  --white: #fff;
+  --gray: #aaa;
+
+  /* typography */
+  --font-base: 16px;
+  --heading-1: 72px;
+  --heading-2: 36px;
+}
