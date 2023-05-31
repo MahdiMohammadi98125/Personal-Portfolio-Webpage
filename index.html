@@ -70,16 +70,22 @@
         </div>
       </section>
 
+      <!-- contact us -->
+
       <section class="contact-us" id="contact-us">
-        <h2 class="contact-header">contact us</h2>
         <div class="form-container">
+          <h2 class="contact-header">contact us</h2>
           <form action="" class="contact-form">
             <input type="text" id="name" placeholder="Name" />
             <input type="email" id="email" placeholder="Email" />
-            <textarea name="text-area" id="text-area" cols="30" rows="10">
-              Message
+            <textarea name="text-area" id="text-area" placeholder="Message">
             </textarea>
-            <button type="submit">Send</button>
+            <button type="submit" class="submit-button">
+              <div class="btn-icon-box">
+                <ion-icon name="send" class="send-icon"></ion-icon>
+                <span class="send-text">SEND</span>
+              </div>
+            </button>
           </form>
         </div>
       </section>
