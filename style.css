@@ -356,3 +356,12 @@ textarea {
     flex-basis: 100%;
   }
 }
+
+/* footer */
+.footer {
+  background-color: var(--dark--2);
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 1.5rem;
+}
