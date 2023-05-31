@@ -43,8 +43,7 @@ body {
 }
 
 .name {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 1.5rem;
 }
 .main-nav-list {
   display: flex;
