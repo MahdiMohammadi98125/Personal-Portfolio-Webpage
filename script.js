@@ -8,3 +8,15 @@ const toggler = () => {
   closeOutline.classList.toggle("nav-open");
 };
 btn.addEventListener("click", toggler);
+
+// current time and date
+const showDateTime = () => {
+  const now = new Date();
+  const date = now.toLocaleDateString();
+  const time = now.toLocaleTimeString();
+  const dateTimeString = `${date} ${time}`;
+  const dateTimeElement = document.getElementById("date-time");
+  dateTimeElement.textContent = dateTimeString;
+};
+
+setInterval(showDateTime, 1000);
