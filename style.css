@@ -208,6 +208,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   overflow: hidden;
+  border-radius: 0.7rem;
 }
 .contact-form {
   display: flex;
