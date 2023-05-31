@@ -29,9 +29,10 @@
           <img src="images/logo.png" alt="github logo" />
         </a>
       </div>
-      <button class="mobile-nav-btn">
+
+      <div class="mobile-nav-btn">
         <ion-icon
-          name="menu-outline"
+          name="menu"
           id="menu-outline"
           class="icon-mobile-nav"
         ></ion-icon>
@@ -40,7 +41,7 @@
           id="close-outline"
           class="icon-mobile-nav"
         ></ion-icon>
-      </button>
+      </div>
 
       <ul class="main-nav-list-mobile">
         <li><a href="#" class="main-nav-link">Home</a></li>
@@ -52,7 +53,8 @@
 
     <!-- Main section -->
     <main>
-      <section class="hero-section">
+      <!-- hero section -->
+      <section class="hero-section" id="hero-section">
         <div class="hero-container">
           <div class="hero-description">
             <p>Hi, I'm Mahdi</p>
@@ -65,6 +67,20 @@
               alt="person's picture"
             />
           </div>
+        </div>
+      </section>
+
+      <section class="contact-us" id="contact-us">
+        <h2 class="contact-header">contact us</h2>
+        <div class="form-container">
+          <form action="" class="contact-form">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="email" id="email" placeholder="Email" />
+            <textarea name="text-area" id="text-area" cols="30" rows="10">
+              Message
+            </textarea>
+            <button type="submit">Send</button>
+          </form>
         </div>
       </section>
     </main>
