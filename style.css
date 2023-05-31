@@ -40,6 +40,8 @@ body {
   justify-content: space-between;
   padding: 1rem 4.8rem;
   border-radius: 30px;
+  position: sticky;
+  top: 1rem;
 }
 
 .name {
