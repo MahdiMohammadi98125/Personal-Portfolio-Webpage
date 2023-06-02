@@ -144,6 +144,7 @@
   }
   .form-container {
     max-width: 100%;
+    border-radius: 0.8rem;
   }
   .contact-us {
     margin: 3.2rem;
