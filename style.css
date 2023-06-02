@@ -394,6 +394,9 @@ textarea {
   background-color: #fff;
   color: #000;
 }
+.light-mode .date-time {
+  color: #000;
+}
 .light-mode .contact-input,
 .contact-textarea {
   color: #000;
