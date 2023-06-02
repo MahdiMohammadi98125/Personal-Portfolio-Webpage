@@ -142,7 +142,11 @@
   .contact-header {
     font-size: 2.6rem;
   }
+  .icon-mobile-nav {
+    width: 3rem;
+  }
 }
+
 /* footer */
 /* up to 768px */
 @media screen and (max-width: 48em) {
