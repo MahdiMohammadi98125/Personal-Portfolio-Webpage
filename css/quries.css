@@ -73,7 +73,7 @@
     line-height: 1.1;
   }
   .hero-description p {
-    font-size: var(--font-base);
+    font-size: 2.5rem;
   }
 }
 /* from 800px starts up to 1130px ends */
