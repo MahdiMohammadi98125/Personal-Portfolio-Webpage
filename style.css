@@ -56,7 +56,7 @@ body {
 .main-nav-list {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 4.2rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
