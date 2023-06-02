@@ -110,6 +110,16 @@ body {
   cursor: pointer;
 }
 
+.moon-icon.hidden,
+.sun-icon:not(.hidden) {
+  display: none;
+}
+
+.sun-icon.hidden,
+.moon-icon:not(.hidden) {
+  display: inline-block;
+}
+
 /* up to 768px screen */
 @media (max-width: 48rem) {
   html {
