@@ -329,8 +329,8 @@ body {
 }
 .about-me h2 {
   text-align: center;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: var(--heading-2);
+  margin-bottom: 3.2rem;
 }
 .about-me p {
   font-size: 1.5rem;
