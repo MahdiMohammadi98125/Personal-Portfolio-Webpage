@@ -127,6 +127,7 @@
   .gallery-item {
     flex-basis: 40%;
     border-radius: 0.8rem;
+    margin: 0.5rem;
   }
 }
 
