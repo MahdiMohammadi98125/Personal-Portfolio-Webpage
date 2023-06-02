@@ -32,6 +32,8 @@ body {
   font-family: "poppins";
   background-color: var(--dark-1);
   color: var(--white);
+  font-weight: 400;
+  overflow-x: hidden;
 }
 /* header */
 .header {
