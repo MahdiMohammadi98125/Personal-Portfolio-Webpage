@@ -181,9 +181,12 @@ body {
   flex-direction: column;
   gap: 1.5rem;
 }
+.hero-description h1 {
+  font-size: var(--heading-1);
+  line-height: 1.1;
+}
 .hero-description p {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
 }
 .github-link:link,
 .github-link:visited {
@@ -196,10 +199,6 @@ body {
 .github-link:hover {
   color: #888;
   border-bottom: 0.1rem solid #888;
-}
-.hero-description h1 {
-  font-size: var(--heading-1);
-  line-height: 1.1;
 }
 
 /* up to 768px screen */
