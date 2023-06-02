@@ -176,6 +176,11 @@ body {
   border-radius: 100%;
   width: 100%;
 }
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 .hero-description p {
   font-size: 2rem;
   margin-bottom: 0.5rem;
