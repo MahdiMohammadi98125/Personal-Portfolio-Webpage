@@ -9,6 +9,8 @@
   --white: #fff;
   --gray: #aaa;
 
+  --container-width: 140rem;
+
   /* typography */
   --font-base: 16px;
   --heading-1: 72px;
