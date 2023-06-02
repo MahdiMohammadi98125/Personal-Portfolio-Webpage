@@ -101,6 +101,15 @@ body {
   opacity: 1;
 }
 
+.sun-icon,
+.moon-icon {
+  font-size: 2rem;
+}
+.sun-icon:hover,
+.moon-icon:hover {
+  cursor: pointer;
+}
+
 /* up to 768px screen */
 @media (max-width: 48rem) {
   html {
