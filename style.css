@@ -238,25 +238,25 @@ body {
 
 /* contact form */
 .contact-us {
-  margin: 8rem 12rem;
+  margin: 12.8rem 4rem;
 }
 .contact-header {
   text-align: center;
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  margin-bottom: 3.2rem;
 }
 .form-container {
   background-color: var(--dark--2);
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3.2rem;
   overflow: hidden;
-  border-radius: 0.7rem;
+  border-radius: 1.1rem;
 }
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3.2rem;
 }
 .contact-input,
 .contact-textarea {
@@ -268,13 +268,13 @@ body {
 }
 .submit-button {
   background-color: var(--dark--2);
-  border: 1px solid var(--white);
-  padding: 0.7rem 1rem;
-  height: 34px;
+  border: 0.1rem solid var(--white);
+  padding: 1.1rem 1.6rem;
+  height: 3.4rem;
   width: 100%;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
 }
 
 .submit-button:hover {
@@ -287,13 +287,13 @@ body {
   color: #fff;
 }
 .btn-icon-box:hover {
-  transform: translateY(-29px);
+  transform: translateY(-2.9rem);
 }
 .submit-button .send-text {
   display: block;
-  margin-top: 10px;
-  font: 700 12px;
-  letter-spacing: 2px;
+  margin-top: 1rem;
+  font: 700 1.2rem;
+  letter-spacing: 0.2rem;
 }
 
 ::placeholder {
