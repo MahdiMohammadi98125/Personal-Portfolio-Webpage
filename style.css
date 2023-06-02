@@ -183,8 +183,8 @@ body {
   transition: all 0.3s;
 }
 .github-link:hover {
-  color: var(--dark-8);
-  border-bottom: 0.1rem solid var(--dark-8);
+  color: #888;
+  border-bottom: 0.1rem solid #888;
 }
 .hero-description h1 {
   font-size: 4.5rem;
