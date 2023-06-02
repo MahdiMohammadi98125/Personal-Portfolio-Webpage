@@ -42,6 +42,14 @@
 }
 
 /* hero-section */
+@media screen and (max-width: 28.12em) {
+  .hero-description h1 {
+    font-size: 2.8rem;
+  }
+  .hero-description p {
+    font-size: 1.5rem;
+  }
+}
 /* up to 768px screen */
 @media (max-width: 56.25em) {
   html {
