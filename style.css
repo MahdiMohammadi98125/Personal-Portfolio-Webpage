@@ -388,3 +388,50 @@ textarea {
   padding: 3rem;
   font-size: 1.5rem;
 }
+
+/* light mode */
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+.light-mode .contact-input,
+.contact-textarea {
+  color: #000;
+}
+.light-mode *::placeholder {
+  color: #000;
+}
+.light-mode .submit-button {
+  background-color: #32777a;
+  color: #fff;
+}
+.light-mode .submit-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.light-mode .contact-form #text-area {
+  color: #000;
+}
+.light-mode .github-link:link,
+.light-mode .github-link:visited {
+  color: #000;
+  border-bottom: 0.1rem solid #000;
+}
+.light-mode .github-link:hover {
+  color: #888;
+  border-bottom: 0.1rem solid #888;
+}
+.hero-light,
+.about-us-light,
+.contact-us-light,
+.footer-light,
+.mainNavMobile-light {
+  background-color: #e5f4f5;
+  color: #000;
+}
+.submitBtn-light,
+.contactInp-light,
+.contactTextArea-light {
+  background-color: #fff;
+  color: #000;
+}
