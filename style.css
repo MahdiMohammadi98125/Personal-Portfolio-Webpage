@@ -356,14 +356,22 @@ body {
 }
 
 .gallery-item {
-  width: 30%;
-  margin: 10px;
-  border: 1px solid #ccc;
+  flex: 1 1 25%;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 1.1rem;
+  border: 0.1rem solid #777;
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
+  transition: all 0.3s;
+  display: block;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /* up to 768px screens */
