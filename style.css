@@ -321,10 +321,10 @@ body {
 
 /* about me section */
 .about-me {
-  margin: 8rem 12rem;
+  margin: 12.8rem 19.2rem;
   background-color: var(--dark--2);
   margin: 0 auto;
-  padding: 4rem;
+  padding: 6.8rem 25.6rem;
   overflow: hidden;
 }
 .about-me h2 {
