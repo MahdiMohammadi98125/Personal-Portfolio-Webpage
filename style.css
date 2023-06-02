@@ -248,12 +248,13 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
-.contact-form input,
-textarea {
-  padding: 1rem;
+.contact-input,
+.contact-textarea {
+  padding: 1.6rem;
   background-color: var(--dark--2);
-  border: 1px solid var(--white);
-  border-radius: 0.5rem;
+  border: 0.1rem solid var(--white);
+  border-radius: 0.8rem;
+  color: #fff;
 }
 .submit-button {
   background-color: var(--dark--2);
