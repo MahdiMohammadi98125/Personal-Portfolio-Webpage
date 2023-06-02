@@ -62,7 +62,7 @@ body {
 .main-nav-link:visited {
   text-decoration: none;
   color: inherit;
-  font-size: var(--font-base);
+  font-size: 2rem;
   font-weight: 700;
   transition: all 0.2s;
 }
