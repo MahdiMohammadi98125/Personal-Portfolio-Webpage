@@ -198,7 +198,7 @@ body {
   border-bottom: 0.1rem solid #888;
 }
 .hero-description h1 {
-  font-size: 4.5rem;
+  font-size: var(--heading-1);
   line-height: 1.1;
 }
 
