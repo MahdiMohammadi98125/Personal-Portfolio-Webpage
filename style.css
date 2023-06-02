@@ -12,9 +12,9 @@
   --container-width: 140rem;
 
   /* typography */
-  --font-base: 16px;
-  --heading-1: 72px;
-  --heading-2: 36px;
+  --font-base: 1.6rem;
+  --heading-1: 6.2rem;
+  --heading-2: 3.6rem;
 }
 html {
   box-sizing: border-box;
