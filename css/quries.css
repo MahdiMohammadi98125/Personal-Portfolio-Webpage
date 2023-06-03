@@ -108,7 +108,7 @@
 
 /* about me */
 /* starts 800px up to 944px */
-@media screen and (max-width: 50em) and (max-width: 59em) {
+@media screen and (min-width: 50em) and (max-width: 59em) {
   .about-me {
     padding: 5rem;
   }
