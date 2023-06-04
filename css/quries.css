@@ -107,6 +107,12 @@
 }
 
 /* about me */
+/* up to 800px screens */
+@media screen and (max-width: 50em) {
+  .about-me {
+    padding: 3.5rem;
+  }
+}
 /* starts 800px up to 944px */
 @media screen and (min-width: 50em) and (max-width: 59em) {
   .about-me {
