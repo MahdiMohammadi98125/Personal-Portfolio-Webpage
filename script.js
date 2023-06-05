@@ -80,3 +80,18 @@ const toggleTheme = () => {
 };
 // when the icon being clicked the toggleTheme function will be call
 icon.addEventListener("click", toggleTheme);
+
+// add box-shadow to the contact-us and about-us section
+
+const contactFormY = contactUs.getBoundingClientRect().top + window.pageYOffset;
+aboutUs = document.querySelector(".about-me");
+const aboutUsY = aboutUs.getBoundingClientRect().top + window.pageYOffset;
+
+// Add an event listener to the window object to listen for scroll events
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset >= contactFormY || window.pageYOffset >= aboutUsY) {
+    header.classList.add("header-shadow");
+  } else {
+    header.classList.remove("header-shadow");
+  }
+});
